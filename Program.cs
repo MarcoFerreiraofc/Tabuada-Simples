@@ -10,12 +10,10 @@ namespace Backend_MultiplicationTable
             while(refazer == "sim"){
 
                 
-                Console.WriteLine("-------------------------------------------------");
            
                 Console.WriteLine("Eae,eu sou sua tabua em forma de C# =)");
                
-                Console.WriteLine("-------------------------------------------------");
-                System.Threading.Thread.Sleep(700);
+               
 
                 Console.Write("Qual tabuada você quer ver?");
            
@@ -24,7 +22,7 @@ namespace Backend_MultiplicationTable
                 int tabuada = int.Parse(Console.ReadLine());
                 Console.WriteLine("");
              
-                System.Threading.Thread.Sleep(700);
+                
                 Console.WriteLine($"A tabuada de {tabuada} é:");
 
                 int resultado = 0;
@@ -36,13 +34,13 @@ namespace Backend_MultiplicationTable
                 
                     Console.WriteLine(resultado);
 
-                    System.Threading.Thread.Sleep(850);
+                   
                 }
 
                 Console.WriteLine("");
               
                 Console.WriteLine("Ta afim de fazer outra a operação?");
-                System.Threading.Thread.Sleep(500);
+               
          
                 refazer = Console.ReadLine();
 
