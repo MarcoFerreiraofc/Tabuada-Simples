@@ -45,7 +45,7 @@ namespace Backend_MultiplicationTable
                 refazer = Console.ReadLine();
 
                 if(refazer != "sim"){
-                    System.Threading.Thread.Sleep(650);
+                    
                     Console.WriteLine("");
          
                     Console.WriteLine("Valeu a preferência =)");
